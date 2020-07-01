@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    padding: 10px;
+    margin: 20px;
+    font-size: 40px;
+}
+
+a:any-link{
+    color:white;
+}
+
+input {
+    border : 0.5px solid rgba(255,255,255,0.5);
+    background-color: grey ;
+    color: black;
+    height: 30px;
+    width: 70px;
+    pointer-events: all;
+    font-size: large;
+    margin-bottom: 30px;
+}
+.inputField {
+    width: 300px;
+    padding-left: 10px;
+}
+::placeholder {
+    color : whitesmoke ;
+    opacity: 0.5;
+    padding: 4px;
+}
+
+img {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+.foot-div{
+    color: white;
+    font-size: large;
+    padding: 0.1%;
+    margin: 10px;
+    align-self: flex-end;
+}
